@@ -1,2 +1,2 @@
-# codewars
+# CodeWars
 My CodeWars Kata Solutions.

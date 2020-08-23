@@ -9,3 +9,4 @@ pub mod perimeters_squares;
 pub mod chess_cell;
 pub mod bit_confusing;
 pub mod last_digit;
+pub mod rgb_hex;

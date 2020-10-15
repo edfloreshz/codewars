@@ -10,3 +10,4 @@ pub mod chess_cell;
 pub mod bit_confusing;
 pub mod last_digit;
 pub mod rgb_hex;
+pub mod digital_root;

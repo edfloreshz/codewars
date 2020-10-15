@@ -31,9 +31,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c35e401d-8ad5-4e30-9ed3-0fcfe0995792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solutions/rgb_hex.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/digital_root.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/last_digit.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/last_digit.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solutions/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,14 +82,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Cargo Command.Run codewars">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cargo.Run codewars">
     <configuration name="Run codewars" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package codewars --bin codewars" />
@@ -114,13 +109,18 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Cargo Command.Test codewars" />
-      <item itemvalue="Cargo Command.Run codewars" />
+      <item itemvalue="Cargo.Test codewars" />
+      <item itemvalue="Cargo.Run codewars" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo Command.Run codewars" />
+        <item itemvalue="Cargo.Run codewars" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +138,7 @@
       <updated>1598023419851</updated>
       <workItem from="1598023421388" duration="9828000" />
       <workItem from="1598064607086" duration="3260000" />
+      <workItem from="1602704481240" duration="3219000" />
     </task>
     <servers />
   </component>
@@ -161,62 +162,75 @@
       <screen x="0" y="23" width="1680" height="958" />
     </state>
     <state x="304" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.958@0.23.1680.958" timestamp="1598027994658" />
-    <state width="1214" height="346" key="GridCell.Tab.0.bottom" timestamp="1598209534119">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="940" y="471" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602704507449">
+      <screen x="0" y="0" width="2560" height="1386" />
+    </state>
+    <state x="940" y="471" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1386@0.0.2560.1386" timestamp="1602704507449" />
+    <state width="1878" height="360" key="GridCell.Tab.0.bottom" timestamp="1602721332764">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1214" height="346" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598209534119" />
     <state width="1454" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1598167893491" />
+    <state width="1878" height="360" key="GridCell.Tab.0.bottom/0.0.2560.1386@0.0.2560.1386" timestamp="1602721332764" />
     <state width="1218" height="257" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1598032053481" />
     <state width="1910" height="447" key="GridCell.Tab.0.bottom/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632415" />
-    <state width="1214" height="346" key="GridCell.Tab.0.center" timestamp="1598209534118">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1878" height="360" key="GridCell.Tab.0.center" timestamp="1602721332764">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1214" height="346" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598209534118" />
     <state width="1454" height="346" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1598167893490" />
+    <state width="1878" height="360" key="GridCell.Tab.0.center/0.0.2560.1386@0.0.2560.1386" timestamp="1602721332764" />
     <state width="1218" height="257" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1598032053480" />
     <state width="1910" height="447" key="GridCell.Tab.0.center/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632415" />
-    <state width="1214" height="346" key="GridCell.Tab.0.left" timestamp="1598209534117">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1878" height="360" key="GridCell.Tab.0.left" timestamp="1602721332764">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1214" height="346" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598209534117" />
     <state width="1454" height="346" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1598167893489" />
+    <state width="1878" height="360" key="GridCell.Tab.0.left/0.0.2560.1386@0.0.2560.1386" timestamp="1602721332764" />
     <state width="1218" height="257" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1598032053479" />
     <state width="1910" height="447" key="GridCell.Tab.0.left/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632415" />
-    <state width="1214" height="346" key="GridCell.Tab.0.right" timestamp="1598209534118">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1878" height="360" key="GridCell.Tab.0.right" timestamp="1602721332764">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1214" height="346" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598209534118" />
     <state width="1454" height="346" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1598167893490" />
+    <state width="1878" height="360" key="GridCell.Tab.0.right/0.0.2560.1386@0.0.2560.1386" timestamp="1602721332764" />
     <state width="1218" height="257" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1598032053480" />
     <state width="1910" height="447" key="GridCell.Tab.0.right/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632415" />
-    <state width="1454" height="414" key="GridCell.Tab.1.bottom" timestamp="1598167760255">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="444" key="GridCell.Tab.1.bottom" timestamp="1602721231638">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1454" height="414" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1598167760255" />
+    <state width="1878" height="444" key="GridCell.Tab.1.bottom/0.0.2560.1386@0.0.2560.1386" timestamp="1602721231638" />
     <state width="1260" height="317" key="GridCell.Tab.1.bottom/0.23.1680.958@0.23.1680.958" timestamp="1598024168928" />
     <state width="1910" height="447" key="GridCell.Tab.1.bottom/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632522" />
-    <state width="1454" height="414" key="GridCell.Tab.1.center" timestamp="1598167760254">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="444" key="GridCell.Tab.1.center" timestamp="1602721231638">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1454" height="414" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1598167760254" />
+    <state width="1878" height="444" key="GridCell.Tab.1.center/0.0.2560.1386@0.0.2560.1386" timestamp="1602721231638" />
     <state width="1260" height="317" key="GridCell.Tab.1.center/0.23.1680.958@0.23.1680.958" timestamp="1598024168927" />
     <state width="1910" height="447" key="GridCell.Tab.1.center/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632522" />
-    <state width="1454" height="414" key="GridCell.Tab.1.left" timestamp="1598167760254">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="444" key="GridCell.Tab.1.left" timestamp="1602721231638">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1454" height="414" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1598167760254" />
+    <state width="1878" height="444" key="GridCell.Tab.1.left/0.0.2560.1386@0.0.2560.1386" timestamp="1602721231638" />
     <state width="1260" height="317" key="GridCell.Tab.1.left/0.23.1680.958@0.23.1680.958" timestamp="1598024168927" />
     <state width="1910" height="447" key="GridCell.Tab.1.left/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632522" />
-    <state width="1454" height="414" key="GridCell.Tab.1.right" timestamp="1598167760255">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="444" key="GridCell.Tab.1.right" timestamp="1602721231638">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state width="1454" height="414" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1598167760255" />
+    <state width="1878" height="444" key="GridCell.Tab.1.right/0.0.2560.1386@0.0.2560.1386" timestamp="1602721231638" />
     <state width="1260" height="317" key="GridCell.Tab.1.right/0.23.1680.958@0.23.1680.958" timestamp="1598024168927" />
     <state width="1910" height="447" key="GridCell.Tab.1.right/0.30.2560.1361@0.30.2560.1361" timestamp="1598067632522" />
-    <state x="461" y="239" key="SettingsEditor" timestamp="1598165199535">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="615" y="276" key="SettingsEditor" timestamp="1602721281887">
+      <screen x="0" y="0" width="2560" height="1386" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1598165199535" />
+    <state x="615" y="276" key="SettingsEditor/0.0.2560.1386@0.0.2560.1386" timestamp="1602721281887" />
     <state x="721" y="353" width="396" height="400" key="cloudConfig.SelfSettingsDialog" timestamp="1598024244511">
       <screen x="0" y="23" width="1680" height="958" />
     </state>

@@ -12,3 +12,4 @@ pub mod last_digit;
 pub mod rgb_hex;
 pub mod digital_root;
 pub mod binary_representation;
+pub mod cypher;

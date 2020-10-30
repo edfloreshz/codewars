@@ -1,4 +1,6 @@
 pub fn sort_binary(input: Vec<i32>) -> Vec<i32> {
+	let mut input = input;
+	input.sort();
 	let mut map = input.iter().map(|num| {
 		let ones = format!("{:b}", num).chars().filter(|bin| *bin == '1').collect::<String>();
 		(num, ones.len())
